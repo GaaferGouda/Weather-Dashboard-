@@ -4,14 +4,14 @@ A real-time, interactive weather dashboard built using **Python** and **Streamli
 
 ![Weather Dashboard Screenshot](Screenshot.png)
 
-## 📋 Features
+##  Features
 
 - **Real-Time Weather Data**: Fetches hourly temperature, humidity, and wind speed data.
 - **City Search**: Users can enter any city name to get weather data.
 - **Customizable Graphs**: Select forecast duration and display only chosen weather parameters.
 - **Clean Summary View**: Presents the latest temperature, humidity, and wind speed in a metric format.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -50,7 +50,7 @@ streamlit run city_weather_dashboard.py
 
 The app will open in a new browser tab at `http://localhost:8501`.
 
-## 🌎 Usage
+##  Usage
 
 1. **Enter a City Name**: Type the city name (e.g., "San Francisco") in the input field.
 2. **Select Forecast Duration**: Use the slider to choose between 12 to 48 hours.
@@ -62,22 +62,23 @@ The app will show:
 - Line charts for each selected metric over the chosen duration.
 - A real-time summary of the current temperature, humidity, and wind speed.
 
-## 📚 Project Structure
+##  Project Structure
 
 - **weather_dashboard.py**: Main app code.
 - **requirements.txt**: List of Python dependencies.
 - **README.md**: Project documentation.
 
-## 📦 APIs Used
+##  APIs Used
 
 - **[Open-Meteo API](https://open-meteo.com/)**: For real-time weather data.
 - **[Nominatim API (OpenStreetMap)](https://nominatim.org/)**: For converting city names to coordinates.
 
-## 🎉 Acknowledgments
+##  Acknowledgments
 
 - **OpenStreetMap & Nominatim** for their free and open geolocation API.
 - **Open-Meteo** for providing real-time weather data.
 
-## 🙌 Contributions
+  
+##  Contributions
 
 Feel free to open issues or submit pull requests if you’d like to contribute or suggest improvements!
